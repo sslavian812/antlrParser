@@ -1,12 +1,16 @@
-# antlrParser
-should translate my "goodLanguage" to C
+# GoodLang
+
 
 Task:
-Invent a "good" imperative programming language and translate it to C language.
+
+<b>Invent a "good" imperative programming language and translate it to C language.</b>
+
+<i>ARTLR used as automatic parser generator</i>
 
 
 
-Language: goodLang
+Language: goodLang<br>
+files: code.gl<br>
 
 fratures:
  - arithmetic expressions
