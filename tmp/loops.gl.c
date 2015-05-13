@@ -1,5 +1,4 @@
-#include<iostream>
- #include<stdio>
+#include<stdio.h> 
 
 int main(int argc, char *argv[]) {
 	printf("%s\n", "lops");
@@ -7,10 +6,10 @@ int main(int argc, char *argv[]) {
 		printf("%d\n", i);
 	}
 	for (int j = 1; j < 11; ++j) {
-		k = j-1;
+		int k = j-1;
 		printf("%d\n", k);
 	}
-	x = 1;
+	int x = 1;
 	while (x<10) {
 		printf("%d\n", x);
 		x = x+1;
@@ -18,5 +17,5 @@ int main(int argc, char *argv[]) {
 	while (x==10&x==10) {
 		printf("%s\n", "end.x=10");
 	}
-	return 0
+	return 0;
 }

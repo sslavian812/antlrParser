@@ -29,7 +29,7 @@ loopFor: FOR LPAREN lval rval RANGE rval RPAREN body;
 writeOperator: SHL writable (COMMA writable)*;
 readOperator: SHR lvalblock;
 functionCall: ID LPAREN rvalblock RPAREN;
-variableDeclaration: VAL (lvalblock|assignment); // may be initialization
+variableDeclaration: VAL (lvalblock|assignment); // may have initialization
 returnStatement: RET rval SEMICOLON*;
 swap: SWAP lval COMMA lval;
 
@@ -38,7 +38,7 @@ lvalblock: lval (COMMA lval)*;
 lval: ID;
 
 rvalblock: rval (COMMA rval)*;
-rval: expression | QUESTION boolExpression | functionCall;
+rval: expression | functionCall;
 
 
 body: statement | LBRACE statement*  RBRACE;

@@ -25,81 +25,7 @@
     <favorites_list name="goodLang" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="build.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Translator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/translator/Translator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.62460065" vertical-offset="851" max-vertical-offset="5994">
-              <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#7317#7318#0" expanded="true" />
-                <element signature="e#7352#7353#0" expanded="true" />
-                <element signature="e#9469#9470#0" expanded="true" />
-                <element signature="e#9521#9522#0" expanded="true" />
-                <element signature="e#9751#9752#0" expanded="true" />
-                <element signature="e#9809#9810#0" expanded="true" />
-                <element signature="e#9873#9874#0" expanded="true" />
-                <element signature="e#9922#9923#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loops.gl.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tmp/loops.gl.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TODO.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODO.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.352942" vertical-offset="290" max-vertical-offset="972">
-              <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodLang.g4" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLang.g4">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="2286">
-              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodLangBaseVisitor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLangBaseVisitor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="3870">
-              <caret line="34" column="22" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -113,7 +39,6 @@
         <option value="$PROJECT_DIR$/sample.gl" />
         <option value="$PROJECT_DIR$/GoodLang.g4" />
         <option value="$PROJECT_DIR$/fiponacci.gl" />
-        <option value="$PROJECT_DIR$/tmp/GoodLang.g4" />
         <option value="$PROJECT_DIR$/twoNumbers.gl" />
         <option value="$PROJECT_DIR$/src/GoodLang.g4" />
         <option value="$PROJECT_DIR$/declInit.gl" />
@@ -123,7 +48,9 @@
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLang.g4" />
         <option value="$PROJECT_DIR$/tmp/fiponacci.cpp" />
         <option value="$PROJECT_DIR$/tmp/loops.gl.c" />
+        <option value="$PROJECT_DIR$/examples/twoNumbers.gl" />
         <option value="$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/translator/Translator.java" />
+        <option value="$PROJECT_DIR$/tmp/GoodLang.g4" />
       </list>
     </option>
   </component>
@@ -210,6 +137,14 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shalamov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="translator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -221,7 +156,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="shalamov" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="goodLang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -545,7 +488,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.ifmo.ctddev.shalamov.translator.Translator" />
       <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="examples/loops.gl tmp/" />
+      <option name="PROGRAM_PARAMETERS" value="examples/declInit.gl tmp/" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
@@ -595,12 +538,12 @@
       <workItem from="1431251126363" duration="775000" />
       <workItem from="1431295414296" duration="79000" />
       <workItem from="1431464902001" duration="1298000" />
-      <workItem from="1431522053798" duration="23467000" />
+      <workItem from="1431522053798" duration="25500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56666000" />
+    <option name="totallyTimeSpent" value="58699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -618,11 +561,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18539014" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49083504" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -634,7 +578,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -664,7 +607,7 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -686,15 +629,32 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2286" max-vertical-offset="6354">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7317#7318#0" expanded="true" />
-            <element signature="e#7352#7353#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9521#9522#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9873#9874#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="docComment;class#Translator#0" expanded="false" />
+            <element signature="method#Translator#0;class#Translator#0" expanded="false" />
+            <element signature="method#main#0;class#Translator#0" expanded="false" />
+            <element signature="method#translateProgram#0;class#Translator#0" expanded="false" />
+            <element signature="method#getFunctionDeclarations#0;class#Translator#0" expanded="false" />
+            <element signature="class#2459:3040" expanded="false" />
+            <element signature="method#visitDeclaration#0;class#2459:3040" expanded="false" />
+            <element signature="method#getFunctionDeclaration#0;class#Translator#0" expanded="false" />
+            <element signature="method#ExecutableCodeGenerator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitAssignment#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitFunctionCall#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopWhile#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitConditional#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopFor#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReadOperator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitExpression#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReturnStatement#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitVariableDeclaration#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="class#8945:9160" expanded="false" />
+            <element signature="method#visitLval#0;class#8945:9160" expanded="false" />
+            <element signature="method#getNames#1;class#Translator#0" expanded="false" />
+            <element signature="class#9345:9560" expanded="false" />
+            <element signature="method#visitRval#0;class#9345:9560" expanded="false" />
+            <element signature="method#splitted#0;class#Translator#0" expanded="false" />
+            <element signature="method#writeln#0;class#Translator#0" expanded="false" />
+            <element signature="method#declareVar#0;class#Translator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -728,15 +688,32 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2286" max-vertical-offset="6354">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7317#7318#0" expanded="true" />
-            <element signature="e#7352#7353#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9521#9522#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9873#9874#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="docComment;class#Translator#0" expanded="false" />
+            <element signature="method#Translator#0;class#Translator#0" expanded="false" />
+            <element signature="method#main#0;class#Translator#0" expanded="false" />
+            <element signature="method#translateProgram#0;class#Translator#0" expanded="false" />
+            <element signature="method#getFunctionDeclarations#0;class#Translator#0" expanded="false" />
+            <element signature="class#2459:3040" expanded="false" />
+            <element signature="method#visitDeclaration#0;class#2459:3040" expanded="false" />
+            <element signature="method#getFunctionDeclaration#0;class#Translator#0" expanded="false" />
+            <element signature="method#ExecutableCodeGenerator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitAssignment#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitFunctionCall#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopWhile#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitConditional#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopFor#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReadOperator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitExpression#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReturnStatement#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitVariableDeclaration#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="class#8945:9160" expanded="false" />
+            <element signature="method#visitLval#0;class#8945:9160" expanded="false" />
+            <element signature="method#getNames#1;class#Translator#0" expanded="false" />
+            <element signature="class#9345:9560" expanded="false" />
+            <element signature="method#visitRval#0;class#9345:9560" expanded="false" />
+            <element signature="method#splitted#0;class#Translator#0" expanded="false" />
+            <element signature="method#writeln#0;class#Translator#0" expanded="false" />
+            <element signature="method#declareVar#0;class#Translator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -762,15 +739,32 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2286" max-vertical-offset="6354">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7317#7318#0" expanded="true" />
-            <element signature="e#7352#7353#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9521#9522#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9873#9874#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="docComment;class#Translator#0" expanded="false" />
+            <element signature="method#Translator#0;class#Translator#0" expanded="false" />
+            <element signature="method#main#0;class#Translator#0" expanded="false" />
+            <element signature="method#translateProgram#0;class#Translator#0" expanded="false" />
+            <element signature="method#getFunctionDeclarations#0;class#Translator#0" expanded="false" />
+            <element signature="class#2459:3040" expanded="false" />
+            <element signature="method#visitDeclaration#0;class#2459:3040" expanded="false" />
+            <element signature="method#getFunctionDeclaration#0;class#Translator#0" expanded="false" />
+            <element signature="method#ExecutableCodeGenerator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitAssignment#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitFunctionCall#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopWhile#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitConditional#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopFor#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReadOperator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitExpression#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReturnStatement#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitVariableDeclaration#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="class#8945:9160" expanded="false" />
+            <element signature="method#visitLval#0;class#8945:9160" expanded="false" />
+            <element signature="method#getNames#1;class#Translator#0" expanded="false" />
+            <element signature="class#9345:9560" expanded="false" />
+            <element signature="method#visitRval#0;class#9345:9560" expanded="false" />
+            <element signature="method#splitted#0;class#Translator#0" expanded="false" />
+            <element signature="method#writeln#0;class#Translator#0" expanded="false" />
+            <element signature="method#declareVar#0;class#Translator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -796,15 +790,32 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2286" max-vertical-offset="6354">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7317#7318#0" expanded="true" />
-            <element signature="e#7352#7353#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9521#9522#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9873#9874#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="docComment;class#Translator#0" expanded="false" />
+            <element signature="method#Translator#0;class#Translator#0" expanded="false" />
+            <element signature="method#main#0;class#Translator#0" expanded="false" />
+            <element signature="method#translateProgram#0;class#Translator#0" expanded="false" />
+            <element signature="method#getFunctionDeclarations#0;class#Translator#0" expanded="false" />
+            <element signature="class#2459:3040" expanded="false" />
+            <element signature="method#visitDeclaration#0;class#2459:3040" expanded="false" />
+            <element signature="method#getFunctionDeclaration#0;class#Translator#0" expanded="false" />
+            <element signature="method#ExecutableCodeGenerator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitAssignment#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitFunctionCall#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopWhile#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitConditional#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopFor#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReadOperator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitExpression#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReturnStatement#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitVariableDeclaration#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="class#8945:9160" expanded="false" />
+            <element signature="method#visitLval#0;class#8945:9160" expanded="false" />
+            <element signature="method#getNames#1;class#Translator#0" expanded="false" />
+            <element signature="class#9345:9560" expanded="false" />
+            <element signature="method#visitRval#0;class#9345:9560" expanded="false" />
+            <element signature="method#splitted#0;class#Translator#0" expanded="false" />
+            <element signature="method#writeln#0;class#Translator#0" expanded="false" />
+            <element signature="method#declareVar#0;class#Translator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -830,15 +841,32 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2286" max-vertical-offset="6354">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7317#7318#0" expanded="true" />
-            <element signature="e#7352#7353#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9521#9522#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9873#9874#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="docComment;class#Translator#0" expanded="false" />
+            <element signature="method#Translator#0;class#Translator#0" expanded="false" />
+            <element signature="method#main#0;class#Translator#0" expanded="false" />
+            <element signature="method#translateProgram#0;class#Translator#0" expanded="false" />
+            <element signature="method#getFunctionDeclarations#0;class#Translator#0" expanded="false" />
+            <element signature="class#2459:3040" expanded="false" />
+            <element signature="method#visitDeclaration#0;class#2459:3040" expanded="false" />
+            <element signature="method#getFunctionDeclaration#0;class#Translator#0" expanded="false" />
+            <element signature="method#ExecutableCodeGenerator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitAssignment#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitFunctionCall#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopWhile#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitConditional#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopFor#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReadOperator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitExpression#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReturnStatement#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitVariableDeclaration#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="class#8945:9160" expanded="false" />
+            <element signature="method#visitLval#0;class#8945:9160" expanded="false" />
+            <element signature="method#getNames#1;class#Translator#0" expanded="false" />
+            <element signature="class#9345:9560" expanded="false" />
+            <element signature="method#visitRval#0;class#9345:9560" expanded="false" />
+            <element signature="method#splitted#0;class#Translator#0" expanded="false" />
+            <element signature="method#writeln#0;class#Translator#0" expanded="false" />
+            <element signature="method#declareVar#0;class#Translator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -864,15 +892,32 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2286" max-vertical-offset="6354">
           <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7317#7318#0" expanded="true" />
-            <element signature="e#7352#7353#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9521#9522#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9873#9874#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="docComment;class#Translator#0" expanded="false" />
+            <element signature="method#Translator#0;class#Translator#0" expanded="false" />
+            <element signature="method#main#0;class#Translator#0" expanded="false" />
+            <element signature="method#translateProgram#0;class#Translator#0" expanded="false" />
+            <element signature="method#getFunctionDeclarations#0;class#Translator#0" expanded="false" />
+            <element signature="class#2459:3040" expanded="false" />
+            <element signature="method#visitDeclaration#0;class#2459:3040" expanded="false" />
+            <element signature="method#getFunctionDeclaration#0;class#Translator#0" expanded="false" />
+            <element signature="method#ExecutableCodeGenerator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitAssignment#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitFunctionCall#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopWhile#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitConditional#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopFor#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReadOperator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitExpression#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReturnStatement#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitVariableDeclaration#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="class#8945:9160" expanded="false" />
+            <element signature="method#visitLval#0;class#8945:9160" expanded="false" />
+            <element signature="method#getNames#1;class#Translator#0" expanded="false" />
+            <element signature="class#9345:9560" expanded="false" />
+            <element signature="method#visitRval#0;class#9345:9560" expanded="false" />
+            <element signature="method#splitted#0;class#Translator#0" expanded="false" />
+            <element signature="method#writeln#0;class#Translator#0" expanded="false" />
+            <element signature="method#declareVar#0;class#Translator#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -900,14 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/GoodLang.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7578948" vertical-offset="508" max-vertical-offset="2286">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/fibonacci.gl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
@@ -916,29 +953,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/twoNumbers.gl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8235292" vertical-offset="0" max-vertical-offset="738">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/declInit.gl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/loops.gl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36" vertical-offset="0" max-vertical-offset="950">
-          <caret line="19" column="19" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -954,30 +972,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLangBaseVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="278" max-vertical-offset="3870">
-          <caret line="34" column="22" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLang.g4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="2286">
-          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLangParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40554962" vertical-offset="916" max-vertical-offset="35658">
@@ -989,29 +983,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/examples/loops.gl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34504792" vertical-offset="0" max-vertical-offset="626">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/GoodLang.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43157893" vertical-offset="1264" max-vertical-offset="2286">
+          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLang.g4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43578947" vertical-offset="270" max-vertical-offset="2286">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/twoNumbers.gl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6091703" vertical-offset="0" max-vertical-offset="916">
+          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/twoNumbers.gl.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5494737" vertical-offset="0" max-vertical-offset="950">
+          <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLangBaseVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10526316" vertical-offset="224" max-vertical-offset="3870">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/fibonacci.gl.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018947368" vertical-offset="0" max-vertical-offset="950">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/declInit.gl.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22736841" vertical-offset="0" max-vertical-offset="950">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tmp/loops.gl.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        <state vertical-scroll-proportion="0.39789474" vertical-offset="0" max-vertical-offset="950">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/ifmo/ctddev/shalamov/translator/Translator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.62460065" vertical-offset="851" max-vertical-offset="5994">
-          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.3336842" vertical-offset="1105" max-vertical-offset="2862">
+          <caret line="200" column="13" selection-start-line="200" selection-start-column="13" selection-end-line="200" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#7317#7318#0" expanded="true" />
-            <element signature="e#7352#7353#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9521#9522#0" expanded="true" />
-            <element signature="e#9751#9752#0" expanded="true" />
-            <element signature="e#9809#9810#0" expanded="true" />
-            <element signature="e#9873#9874#0" expanded="true" />
-            <element signature="e#9922#9923#0" expanded="true" />
+            <element signature="docComment;class#Translator#0" expanded="false" />
+            <element signature="method#Translator#0;class#Translator#0" expanded="false" />
+            <element signature="method#main#0;class#Translator#0" expanded="false" />
+            <element signature="method#translateProgram#0;class#Translator#0" expanded="false" />
+            <element signature="method#getFunctionDeclarations#0;class#Translator#0" expanded="false" />
+            <element signature="class#2459:3040" expanded="false" />
+            <element signature="method#visitDeclaration#0;class#2459:3040" expanded="false" />
+            <element signature="method#getFunctionDeclaration#0;class#Translator#0" expanded="false" />
+            <element signature="method#ExecutableCodeGenerator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitAssignment#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitFunctionCall#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopWhile#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitConditional#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitLoopFor#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReadOperator#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitExpression#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitReturnStatement#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="method#visitVariableDeclaration#0;class#ExecutableCodeGenerator#0;class#Translator#0" expanded="false" />
+            <element signature="class#8945:9160" expanded="false" />
+            <element signature="method#visitLval#0;class#8945:9160" expanded="false" />
+            <element signature="method#getNames#1;class#Translator#0" expanded="false" />
+            <element signature="class#9345:9560" expanded="false" />
+            <element signature="method#visitRval#0;class#9345:9560" expanded="false" />
+            <element signature="method#splitted#0;class#Translator#0" expanded="false" />
+            <element signature="method#writeln#0;class#Translator#0" expanded="false" />
+            <element signature="method#declareVar#0;class#Translator#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03842049" vertical-offset="0" max-vertical-offset="937">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

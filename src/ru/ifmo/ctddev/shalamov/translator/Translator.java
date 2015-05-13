@@ -1,5 +1,6 @@
 package ru.ifmo.ctddev.shalamov.translator;
 
+import com.sun.xml.internal.bind.v2.runtime.reflect.ListTransducedAccessorImpl;
 import org.antlr.v4.runtime.ANTLRInputStream;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -42,7 +43,7 @@ public class Translator {
         }
 
         String in = args[0];
-        String out = args[1] + args[0].split("/")[args[0].split("/").length-1] + ".c";
+        String out = args[1] + args[0].split("/")[args[0].split("/").length - 1] + ".c";
 
         try {
             new Translator(new FileInputStream(in), new PrintWriter(out)).translateProgram();
@@ -75,7 +76,7 @@ public class Translator {
 
         ++indents;
         root.accept(new ExecutableCodeGenerator());
-        writeln("return 0");
+        writeln("return 0;");
         --indents;
 
         writeln("}");
@@ -91,7 +92,7 @@ public class Translator {
                 ++indents;
                 ExecutableCodeGenerator generator = new ExecutableCodeGenerator();
                 ctx.body().accept(generator);
-                if(!generator.returnStatementVisited)
+                if (!generator.returnStatementVisited)
                     writeln("return 0;");
                 --indents;
                 writeln("}");
@@ -242,13 +243,42 @@ public class Translator {
         public Void visitReturnStatement(GoodLangParser.ReturnStatementContext ctx) {
             returnStatementVisited = true;
             String rval = "0";
-            if(ctx.rval() != null)
+            if (ctx.rval() != null)
                 rval = ctx.rval().getText();
 
             writeln("return " + rval + ";");
             return null;
         }
 
+        @Override
+        public Void visitVariableDeclaration(GoodLangParser.VariableDeclarationContext ctx) {
+            List<String> names;
+            String value = "0";
+
+            if (ctx.lvalblock() != null)
+                names = getNames(ctx.lvalblock());
+            else {
+                names = getNames(ctx.assignment().lvalblock());
+                value = ctx.assignment().rval().getText();
+            }
+
+            names = names.stream().map(n -> "int " + n).collect(Collectors.toList());
+            assignVars(names, value);
+
+            return null;
+        }
+
+        @Override
+        public Void visitSwap(GoodLangParser.SwapContext ctx) {
+            String temp = "a_" + Math.abs(new Random().nextInt());
+            String a = ctx.lval(0).getText();
+            String b = ctx.lval(1).getText();
+
+            writeln("int " + temp + " = " + a + ";");
+            writeln(a + " = " + b + ";");
+            writeln(b + " = " + temp + ";");
+            return null;
+        }
     }
 
 

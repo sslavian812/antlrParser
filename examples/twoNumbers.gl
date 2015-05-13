@@ -21,7 +21,7 @@ fun max(a,b)
         ret b
 }
 
-fun max(a,b)
+fun min(a,b)
 {
     if(a<b)
         ret a
@@ -29,7 +29,7 @@ fun max(a,b)
         ret b
 }
 
-fun max(a,b)
+fun sum(a,b)
 {
     ret a+b;
 }
