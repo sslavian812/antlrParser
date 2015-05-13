@@ -5,7 +5,9 @@ Task:
 
 <b>Invent a "good" imperative programming language and translate it to C language.</b>
 
-<i>ARTLR used as automatic parser generator</i>
+<i>ARTLR used as automatic parser generator:</i>
+<a href="http://www.antlr.org/" />
+
 
 
 
@@ -65,3 +67,11 @@ for(i 0..10) {
 // gives 0 1 4 9 16 25 36 49 64 81
 // note, that the right end of the range is not included!!!
 ```
+
+
+see more code examples in ./examples/
+
+./tmp folder contains generated C files
+
+
+<a href="https://github.com/sslavian812/goodLang/blob/c75e4e85351aebe1df54846d79ca60988aca1a43/src/ru/ifmo/ctddev/shalamov/goodLang/GoodLang.g4">file with grammar</a>
