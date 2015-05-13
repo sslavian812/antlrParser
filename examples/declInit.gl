@@ -1,0 +1,17 @@
+<<"Variable declaration and initialization"
+
+val a
+<<"a should be 0: a=", a
+
+val b=1
+<<"b should be 1: b=", b
+
+val c,d
+<<"c,d should be 0,0: c,d=", c, ", ", d
+
+val e,f=5
+<<"e,f should be 5,5: e,f=", e, ", ", f
+
+
+
+

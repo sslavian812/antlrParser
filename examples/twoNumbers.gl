@@ -1,0 +1,35 @@
+<< "put numbers"
+val a,b
+>> a,b
+
+<< "max: ", max(a,b)
+<< "min: ", min(a,b)
+<< "sum: ", sum(a,b)
+<< "average: ", sum(a,b)/2
+
+<<"before swap. a, b:", a, b
+swap a,b
+<<"after swap. a, b:", a, b
+
+<<"success!"
+
+fun max(a,b)
+{
+    if(a>b)
+        ret a
+    else
+        ret b
+}
+
+fun max(a,b)
+{
+    if(a<b)
+        ret a
+    else
+        ret b
+}
+
+fun max(a,b)
+{
+    ret a+b;
+}

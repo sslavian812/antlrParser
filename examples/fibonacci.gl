@@ -1,0 +1,13 @@
+<< "n-th fibonacci number. put n:"
+val n
+>> n
+
+<< fib(n)
+
+fun fib(k)
+{
+    if(k==0) ret 0
+    if(k==1) ret 1
+    ret fib(k-1) + fib(k-2)
+}
+
